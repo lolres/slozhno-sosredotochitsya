@@ -1,0 +1,1 @@
+https://github.com/lolres/slozhno-sosredotochitsya.git
