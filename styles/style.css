@@ -66,8 +66,11 @@
   background-attachment: fixed;
 }
 
+.main {
+  margin: 40px 0;
+}
+
 .hard__concentration {
-  margin-block-start: 40px;
   display: grid;
   grid-template-rows: repeat(3, auto);
   gap: 20px;
@@ -107,15 +110,22 @@
   gap: 20px;
 }
 
-.section__advices-title {
-
-}
-
 .section__advices {
   font-weight: 400;
 }
 
 .cards__images {
   margin-block-start: 50px;
+}
 
+.grid__cells__images {
+  display: grid;
+  grid-template-rows: 142px 355px 237px 355px 237px;
+  row-gap: 10px;
+}
+
+.img_cell {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
