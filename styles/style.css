@@ -161,30 +161,54 @@
   gap: 20px;
 }
 
+.section__subtitle-decor {
+  margin-block-end: 20px;
+}
+
 .section__advices {
   font-weight: 400;
 }
 
 .cards__images {
-  margin-block-start: 50px;
+  margin-block-start: 30px;
+}
+
+.grid__cells__images-item-1 {
+  grid-area: sunset;
+}
+
+.grid__cells__images-item-2 {
+  grid-area: icecream;
+}
+
+.grid__cells__images-item-3 {
+  grid-area: tape;
+}
+
+.grid__cells__images-item-4 {
+  grid-area: books;
+}
+
+.grid__cells__images-item-5 {
+  grid-area: street;
 }
 
 .grid__cells__images {
   display: grid;
   grid-template-rows: 142px 355px 237px 355px 237px;
   row-gap: 10px;
+  grid-template-areas: 
+  "sunset"
+  "icecream"
+  "tape"
+  "books"
+  "street";
 }
 
 .img__cell {
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
-
-.angle {
-  border-inline-end: 1px solid var(--accent-color);
-  border-block-start: 1px solid var(--accent-color);
-  
 }
 
 .footer { 
@@ -234,7 +258,7 @@
   }
 
   .header::before {
-
+    bottom: 20px;
   }
 
   .header::after {
@@ -250,22 +274,101 @@
   }
 
   .header__theme-menu {
-    margin-block-start: 143px;
+    margin-block-start: 142px;
     grid-column: 1/3;
   }
 
   .cover__title {
     margin-block-start: 174px;
     margin-block-end: 162px;
-    margin-inline-start: -19px;
+    margin-inline-start: -20px;
     grid-column: 1/3;
-
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+    word-spacing: -5px
   }
 
   .pink_color {
-    margin-block-end: 153px;
+    margin-block-end: 163px;
     grid-template-columns: 1fr 1fr;
     grid-column: 2/3;
-
   }
+
+  .hard__concentration {
+    margin-block-start: 60px;
+    grid-template: repeat(2, auto) / repeat(3, 1fr);
+    column-gap: 40px;
+  }
+
+  .section__title {
+    grid-column: 1 / 2;
+  }
+
+  .grid__cell {
+    grid-column: 2/ 4;
+  }
+
+  .less__concentration {
+    margin-block-start: 80px;
+    grid-template: repeat(2, auto) / repeat(3, 1fr);
+    column-gap: 40px;
+  }
+
+  .less__concentration .grid__cell {
+    grid-column: 1 / 4;
+  }
+
+  .improve__concentration {
+    margin-block-start: 80px;
+    grid-template: repeat(2, auto) / repeat(3, 1fr);
+    column-gap: 20px;
+  }
+
+  .improve__concentration .grid__cell {
+    margin-inline-start: 7px;
+  }
+
+  .section__subtitle-decor {
+    margin-block-end: 20px;
+  }
+
+  .cards__images {
+    margin-block-start: 80px;
+  }
+
+  .cards__images .section__subtitle {
+    margin-block-end: 20px;
+  }
+
+  .grid__cells__images {
+    grid-template-rows: 192px 230px 318px;
+    grid-template-columns: repeat(3, max(230px, 1fr));
+    gap: 20px;
+    grid-template-areas: 
+      "sunset sunset icecream"
+      "tape books icecream"
+      "tape street street";
+  }
+
+  .footer {
+    margin-block-start: 60px;
+    padding: 462px 162px;
+  }
+
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .footer::before {
+    bottom: 20px;
+  }
+
+  .footer::after {
+    top: 20px;
+  }
+}
+
+@media screen and (width >= 1024px) {
+  
+  .
+
 }
