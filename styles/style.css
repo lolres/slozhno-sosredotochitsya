@@ -38,7 +38,7 @@
   position: relative;
   justify-self: end;
   margin-inline-end: 28px;
-  color: #FF0070;
+  color: var(--accent-color);
   text-transform: uppercase;
   text-align: center;
   font-family: var(--main-font);
