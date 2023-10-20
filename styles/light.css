@@ -13,11 +13,13 @@
   --accent-color: #FF8DCB;
   --text-color: #353430;
   --header-title: #FFC2E6;
+  --title-decor-themes: #353430;
+  --button-hover: #32312d66;
   --main-font: 'IBM Plex mono';
 }
 
 .theme_light .header__decor {
-  display: none;
+  visibility: hidden;
 }
 
 .theme_light.page {
@@ -36,11 +38,13 @@
         --accent-color: #FF8DCB;
         --text-color: #353430;
         --header-title: #FFC2E6;
+        --title-decor-themes: #353430;
+        --button-hover: #32312d66;
         --main-font: 'IBM Plex mono'; 
     }
 
     .header__decor {
-      display: none;
+      visibility: hidden;
     }
 
     .page {

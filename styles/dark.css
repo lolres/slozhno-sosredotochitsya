@@ -13,6 +13,8 @@
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
   --header-title: #db00ff;
+  --title-decor-themes: #ff0070;
+  --button-hover: #ff007066;
   --main-font: 'IBM Plex mono';
 }
 
@@ -22,5 +24,7 @@
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
   --header-title: #db00ff;
+  --title-decor-themes: #ff0070;
+  --button-hover: #ff007066;
   --main-font: 'IBM Plex mono';
 }
