@@ -23,7 +23,7 @@
 }
 
 .theme_light.page {
-  background-image: url(/images/cover-image-light.png);
+  background-image: url(../images/cover-image-light.png);
   background-position: center;
   background-attachment: fixed;
 }
@@ -48,7 +48,7 @@
     }
 
     .page {
-      background-image: url(/images/cover-image-light.png);
+      background-image: url(../images/cover-image-light.png);
     }
 }
 

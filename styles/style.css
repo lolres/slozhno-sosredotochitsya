@@ -88,7 +88,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--button-hover, #ff007066);
+  border: 1px solid var(--button-hover, #ff007066);
 }
 
 .header__theme-menu-button:focus-visible {
